@@ -1,4 +1,5 @@
-var checkExist = setInterval(function() {
+$(document).ready(function(){ 
+ setInterval(function() {
    console.log("starts");
    if ($('#the-canvas').length) {
       var appBanners = document.getElementsByClassName('bqDeCs'), i;
@@ -8,5 +9,4 @@ for (var i = 0; i < appBanners.length; i ++) {
 }
    }
 }, 100);
-
-$(document).ready(function(){ checkExist }) 
+}) 

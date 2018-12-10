@@ -1,4 +1,6 @@
-console.log("ole"); 
+
+$(window).load(function(){ console.log("ole");  })
+
 
 setInterval(function() {
    console.log("starts");

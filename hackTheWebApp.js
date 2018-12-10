@@ -7,3 +7,5 @@ for (var i = 0; i < appBanners.length; i ++) {
 }
    }
 }, 100);
+
+$(document).ready(function(){ checkExist }) 

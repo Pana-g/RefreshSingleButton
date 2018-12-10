@@ -9,5 +9,5 @@ for (var i = 0; i < appBanners.length; i ++) {
 }
     
    }
-  exit();
+  return;
 }, 100);
